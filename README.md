@@ -9,6 +9,7 @@ A responsive financial dashboard that visualizes customer spending data, built w
 - **Charts**: Recharts
 - **Icons**: Lucide React
 - **Styling**: CSS Modules with CSS Custom Properties
+- **Testing**: Vitest, React Testing Library
 - **Containerization**: Docker, Nginx
 
 ## Prerequisites
@@ -56,6 +57,30 @@ npm run preview
 npm run lint
 ```
 
+## Testing
+
+Tests are written with [Vitest](https://vitest.dev/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/).
+
+```bash
+# Run all tests
+npm test
+
+# Run tests in watch mode
+npm run test:watch
+```
+
+### What's tested
+
+| Area | File | Coverage |
+|------|------|----------|
+| Formatters | `src/utils/formatters.test.ts` | Currency, date, percentage, and month formatting |
+| Icons | `src/utils/icons.test.ts` | Icon mapping and fallback behavior |
+| API Client | `src/api/customerApi.test.ts` | All endpoints: profile, spending summary, categories, trends, transactions (filtering, sorting, pagination), goals, filters |
+| Store | `src/store/dashboardStore.test.ts` | State defaults, setters, theme toggle with localStorage |
+| KPICard | `src/components/cards/KPICard.test.tsx` | Rendering with currency, string values, change indicators |
+| PeriodSelector | `src/components/layout/PeriodSelector.test.tsx` | Button rendering, active state, click interaction |
+| GoalsSection | `src/components/goals/GoalsSection.test.tsx` | Goal rendering, status labels, budget display |
+
 ## Project Structure
 
 ```
@@ -74,6 +99,7 @@ csi-dashboard/
 │   ├── store/                # Zustand state management
 │   ├── styles/               # Global styles, CSS variables
 │   ├── types/                # TypeScript type definitions
+│   ├── test/                 # Test setup
 │   └── utils/                # Formatters, icon helpers
 ├── db.json                   # Mock data source
 ├── docker-compose.yml        # Docker setup
