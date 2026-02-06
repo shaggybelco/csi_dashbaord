@@ -1,0 +1,86 @@
+/* Date Range Filter Styles */
+.dateRangeFilter {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+}
+
+.dateRangeHeader {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-lg);
+  font-weight: var(--font-bold);
+  color: var(--text-primary);
+}
+
+.dateInputs {
+  display: flex;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+}
+
+.dateInputGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.dateInputGroup label {
+  font-size: var(--font-sm);
+  font-weight: var(--font-bold);
+  color: var(--text-muted);
+}
+
+.dateInput {
+  padding: 0.625rem;
+  background-color: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-size: var(--font-sm);
+  font-family: inherit;
+}
+
+.dateInput:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.dateActions {
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .dateRangeFilter {
+    padding: var(--spacing-lg);
+  }
+
+  .dateInputs {
+    flex-direction: column;
+    gap: var(--spacing-md);
+  }
+
+  .dateActions {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .dateRangeFilter {
+    padding: var(--spacing-md);
+  }
+
+  .dateRangeHeader {
+    font-size: var(--font-sm);
+    margin-bottom: var(--spacing-md);
+  }
+
+  .dateInput {
+    font-size: var(--font-sm);
+  }
+}

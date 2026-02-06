@@ -1,0 +1,57 @@
+/* Period Selector Styles */
+.periodSelector {
+  display: flex;
+  gap: var(--spacing-sm);
+  background-color: var(--bg-tertiary);
+  padding: var(--spacing-xs);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+}
+
+.periodBtn {
+  padding: var(--spacing-sm) var(--spacing-lg);
+  background-color: transparent;
+  border: none;
+  border-radius: var(--radius-sm);
+  color: var(--text-muted);
+  font-size: var(--font-sm);
+  font-weight: var(--font-bold);
+  cursor: pointer;
+  transition: all var(--transition-base);
+}
+
+.periodBtn:hover {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+.periodBtn.active {
+  background-color: var(--primary);
+  color: white;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .periodSelector {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .periodBtn {
+    flex: 1;
+    padding: var(--spacing-sm) var(--spacing-sm);
+    font-size: var(--font-xs);
+  }
+}
+
+@media (max-width: 480px) {
+  .periodSelector {
+    gap: var(--spacing-xs);
+  }
+
+  .periodBtn {
+    font-size: var(--font-xs);
+    padding: var(--spacing-sm) var(--spacing-sm);
+    min-height: 2.75rem;
+  }
+}

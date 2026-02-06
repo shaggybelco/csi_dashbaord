@@ -1,0 +1,202 @@
+/* Shared Chart Styles */
+.chartContainer {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-2xl);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.chartHeader {
+  margin-bottom: var(--spacing-lg);
+}
+
+.chartTitle {
+  font-size: var(--font-xl);
+  font-weight: var(--font-bold);
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Chart Legend Styles */
+.chartLegend {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+}
+
+.chartLegendItem {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  font-size: var(--font-sm);
+  font-weight: var(--font-bold);
+  color: var(--text-primary);
+}
+
+.chartLegendSwatch {
+  width: 12px;
+  height: 12px;
+  border-radius: var(--radius-full);
+  display: inline-block;
+}
+
+.chartLegendLabel {
+  color: var(--text-muted);
+  font-weight: var(--font-bold);
+}
+
+/* Category Legend (for pie charts) */
+.categoryLegend {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-lg);
+  max-height: none;
+  overflow: visible;
+}
+
+.categoryLegendItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing-lg);
+  padding: var(--spacing-md) 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background-color: var(--bg-secondary);
+}
+
+.categoryLegendLeft {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  min-width: 0;
+}
+
+.categoryLegendSwatch {
+  width: 12px;
+  height: 12px;
+  border-radius: var(--radius-full);
+  flex: 0 0 auto;
+}
+
+.categoryLegendName {
+  font-weight: var(--font-bold);
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  white-space: normal;
+  line-height: 1.2;
+}
+
+.categoryLegendRight {
+  font-weight: var(--font-extrabold);
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+/* Date Filter for Charts */
+.chartDateFilter {
+  background-color: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  margin-top: var(--spacing-sm);
+}
+
+.dateFilterHeader {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+  font-size: var(--font-sm);
+  font-weight: var(--font-bold);
+  color: var(--text-primary);
+}
+
+.dateFilterInputs {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  flex-wrap: wrap;
+}
+
+.dateInputSmall {
+  padding: var(--spacing-sm);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-size: var(--font-sm);
+  font-family: inherit;
+  flex: 1;
+  min-width: 120px;
+}
+
+.dateInputSmall:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .chartTitle {
+    font-size: var(--font-lg);
+  }
+
+  .categoryLegend {
+    grid-template-columns: 1fr;
+  }
+
+  .chartDateFilter {
+    padding: var(--spacing-sm);
+  }
+
+  .dateFilterInputs {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .dateInputSmall {
+    width: 100%;
+    min-width: unset;
+  }
+}
+
+@media (max-width: 480px) {
+  .chartContainer {
+    padding: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+    border-radius: var(--radius-lg);
+  }
+
+  .chartTitle {
+    font-size: var(--font-md);
+  }
+
+  .categoryLegendItem {
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+
+  .categoryLegendName {
+    font-size: var(--font-sm);
+  }
+
+  .categoryLegendRight {
+    font-size: var(--font-sm);
+  }
+}
+
+/* Recharts Legend Overrides */
+@media (max-width: 768px) {
+  :global(.recharts-legend-wrapper) {
+    position: relative !important;
+    margin-top: var(--spacing-lg) !important;
+  }
+
+  :global(.recharts-legend-item) {
+    margin-bottom: var(--spacing-sm) !important;
+    font-size: var(--font-xs) !important;
+  }
+}

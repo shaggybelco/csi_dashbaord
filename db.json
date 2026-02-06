@@ -1,0 +1,1694 @@
+{
+  "profile": {
+    "customerId": "12345",
+    "name": "John Doe",
+    "email": "john.doe@email.com",
+    "joinDate": "2023-01-15",
+    "accountType": "premium",
+    "totalSpent": 185595.64,
+    "currency": "ZAR"
+  },
+  "transactions": [
+    {
+      "id": "txn_121",
+      "date": "2026-02-06T09:30:00Z",
+      "merchant": "Woolworths",
+      "category": "Groceries",
+      "amount": 312.5,
+      "description": "Fresh produce",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_122",
+      "date": "2026-02-05T18:45:00Z",
+      "merchant": "Uber",
+      "category": "Transportation",
+      "amount": 95.3,
+      "description": "Ride to meeting",
+      "paymentMethod": "Debit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_123",
+      "date": "2026-02-05T12:00:00Z",
+      "merchant": "Nando's",
+      "category": "Dining",
+      "amount": 215.8,
+      "description": "Lunch",
+      "paymentMethod": "Credit Card",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_124",
+      "date": "2026-02-04T16:20:00Z",
+      "merchant": "Netflix",
+      "category": "Entertainment",
+      "amount": 199,
+      "description": "Monthly subscription",
+      "paymentMethod": "Debit Order",
+      "icon": "film",
+      "categoryColor": "#4ECDC4"
+    },
+    {
+      "id": "txn_125",
+      "date": "2026-02-04T10:00:00Z",
+      "merchant": "Checkers",
+      "category": "Groceries",
+      "amount": 478.9,
+      "description": "Weekly groceries",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_126",
+      "date": "2026-02-03T14:30:00Z",
+      "merchant": "Engen",
+      "category": "Transportation",
+      "amount": 780,
+      "description": "Fuel",
+      "paymentMethod": "Credit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_127",
+      "date": "2026-02-03T09:15:00Z",
+      "merchant": "Eskom",
+      "category": "Utilities",
+      "amount": 1350,
+      "description": "Electricity prepaid",
+      "paymentMethod": "Debit Order",
+      "icon": "zap",
+      "categoryColor": "#85C1E9"
+    },
+    {
+      "id": "txn_128",
+      "date": "2026-02-02T19:00:00Z",
+      "merchant": "Edgars",
+      "category": "Shopping",
+      "amount": 645.5,
+      "description": "Clothing",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-bag",
+      "categoryColor": "#BB8FCE"
+    },
+    {
+      "id": "txn_129",
+      "date": "2026-02-02T11:30:00Z",
+      "merchant": "Spur",
+      "category": "Dining",
+      "amount": 356.7,
+      "description": "Family brunch",
+      "paymentMethod": "Credit Card",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_130",
+      "date": "2026-02-01T15:45:00Z",
+      "merchant": "Pick n Pay",
+      "category": "Groceries",
+      "amount": 389.2,
+      "description": "Groceries",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_131",
+      "date": "2026-02-01T08:20:00Z",
+      "merchant": "Bolt",
+      "category": "Transportation",
+      "amount": 68.4,
+      "description": "Morning commute",
+      "paymentMethod": "Debit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_132",
+      "date": "2026-01-31T17:30:00Z",
+      "merchant": "Ster-Kinekor",
+      "category": "Entertainment",
+      "amount": 310,
+      "description": "Movie tickets",
+      "paymentMethod": "Credit Card",
+      "icon": "film",
+      "categoryColor": "#4ECDC4"
+    },
+    {
+      "id": "txn_133",
+      "date": "2026-01-31T12:15:00Z",
+      "merchant": "Vodacom",
+      "category": "Utilities",
+      "amount": 599,
+      "description": "Mobile contract",
+      "paymentMethod": "Debit Order",
+      "icon": "zap",
+      "categoryColor": "#85C1E9"
+    },
+    {
+      "id": "txn_001",
+      "date": "2026-01-30T14:23:00Z",
+      "merchant": "Pick n Pay",
+      "category": "Groceries",
+      "amount": 456.8,
+      "description": "Weekly groceries",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_002",
+      "date": "2026-01-29T10:15:00Z",
+      "merchant": "Uber",
+      "category": "Transportation",
+      "amount": 85.5,
+      "description": "Ride to work",
+      "paymentMethod": "Debit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_003",
+      "date": "2026-01-29T19:30:00Z",
+      "merchant": "Netflix",
+      "category": "Entertainment",
+      "amount": 199,
+      "description": "Monthly subscription",
+      "paymentMethod": "Debit Order",
+      "icon": "film",
+      "categoryColor": "#4ECDC4"
+    },
+    {
+      "id": "txn_004",
+      "date": "2026-01-28T12:45:00Z",
+      "merchant": "Woolworths",
+      "category": "Groceries",
+      "amount": 234.9,
+      "description": "Fresh produce",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_005",
+      "date": "2026-01-28T18:20:00Z",
+      "merchant": "Nando's",
+      "category": "Dining",
+      "amount": 178.5,
+      "description": "Dinner",
+      "paymentMethod": "Credit Card",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_006",
+      "date": "2026-01-27T09:00:00Z",
+      "merchant": "Shell",
+      "category": "Transportation",
+      "amount": 750,
+      "description": "Fuel",
+      "paymentMethod": "Credit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_007",
+      "date": "2026-01-26T16:30:00Z",
+      "merchant": "Edgars",
+      "category": "Shopping",
+      "amount": 899.99,
+      "description": "Clothing",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-bag",
+      "categoryColor": "#BB8FCE"
+    },
+    {
+      "id": "txn_008",
+      "date": "2026-01-25T11:00:00Z",
+      "merchant": "Eskom",
+      "category": "Utilities",
+      "amount": 1250,
+      "description": "Electricity prepaid",
+      "paymentMethod": "Debit Order",
+      "icon": "zap",
+      "categoryColor": "#85C1E9"
+    },
+    {
+      "id": "txn_009",
+      "date": "2026-01-25T14:15:00Z",
+      "merchant": "Dischem",
+      "category": "Shopping",
+      "amount": 345.6,
+      "description": "Health & beauty",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-bag",
+      "categoryColor": "#BB8FCE"
+    },
+    {
+      "id": "txn_010",
+      "date": "2026-01-24T19:45:00Z",
+      "merchant": "Ster-Kinekor",
+      "category": "Entertainment",
+      "amount": 280,
+      "description": "Movie tickets",
+      "paymentMethod": "Credit Card",
+      "icon": "film",
+      "categoryColor": "#4ECDC4"
+    },
+    {
+      "id": "txn_011",
+      "date": "2026-01-23T13:20:00Z",
+      "merchant": "Checkers",
+      "category": "Groceries",
+      "amount": 567.3,
+      "description": "Weekly groceries",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_012",
+      "date": "2026-01-22T08:30:00Z",
+      "merchant": "Uber Eats",
+      "category": "Dining",
+      "amount": 156.8,
+      "description": "Breakfast delivery",
+      "paymentMethod": "Debit Card",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_013",
+      "date": "2026-01-21T15:00:00Z",
+      "merchant": "Vodacom",
+      "category": "Utilities",
+      "amount": 599,
+      "description": "Mobile contract",
+      "paymentMethod": "Debit Order",
+      "icon": "zap",
+      "categoryColor": "#85C1E9"
+    },
+    {
+      "id": "txn_014",
+      "date": "2026-01-20T17:30:00Z",
+      "merchant": "Spur",
+      "category": "Dining",
+      "amount": 342.5,
+      "description": "Family dinner",
+      "paymentMethod": "Credit Card",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_015",
+      "date": "2026-01-19T10:45:00Z",
+      "merchant": "Bolt",
+      "category": "Transportation",
+      "amount": 67.2,
+      "description": "Ride home",
+      "paymentMethod": "Debit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_016",
+      "date": "2026-01-18T12:00:00Z",
+      "merchant": "Game",
+      "category": "Shopping",
+      "amount": 1499,
+      "description": "Electronics",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-bag",
+      "categoryColor": "#BB8FCE"
+    },
+    {
+      "id": "txn_017",
+      "date": "2026-01-17T14:30:00Z",
+      "merchant": "Spar",
+      "category": "Groceries",
+      "amount": 189.9,
+      "description": "Quick shop",
+      "paymentMethod": "Cash",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_018",
+      "date": "2026-01-16T20:00:00Z",
+      "merchant": "Spotify",
+      "category": "Entertainment",
+      "amount": 119.99,
+      "description": "Premium subscription",
+      "paymentMethod": "Debit Order",
+      "icon": "film",
+      "categoryColor": "#4ECDC4"
+    },
+    {
+      "id": "txn_019",
+      "date": "2026-01-15T09:15:00Z",
+      "merchant": "Engen",
+      "category": "Transportation",
+      "amount": 820,
+      "description": "Fuel",
+      "paymentMethod": "Credit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_020",
+      "date": "2026-01-14T16:45:00Z",
+      "merchant": "KFC",
+      "category": "Dining",
+      "amount": 98.5,
+      "description": "Lunch",
+      "paymentMethod": "Cash",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_021",
+      "date": "2026-01-13T11:30:00Z",
+      "merchant": "Mr Price",
+      "category": "Shopping",
+      "amount": 456,
+      "description": "Clothing",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-bag",
+      "categoryColor": "#BB8FCE"
+    },
+    {
+      "id": "txn_022",
+      "date": "2026-01-12T15:00:00Z",
+      "merchant": "Pick n Pay",
+      "category": "Groceries",
+      "amount": 678.4,
+      "description": "Weekly groceries",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_023",
+      "date": "2026-01-11T18:20:00Z",
+      "merchant": "Ocean Basket",
+      "category": "Dining",
+      "amount": 445,
+      "description": "Dinner",
+      "paymentMethod": "Credit Card",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_024",
+      "date": "2026-01-10T10:00:00Z",
+      "merchant": "MTN",
+      "category": "Utilities",
+      "amount": 299,
+      "description": "Data bundle",
+      "paymentMethod": "Debit Card",
+      "icon": "zap",
+      "categoryColor": "#85C1E9"
+    },
+    {
+      "id": "txn_025",
+      "date": "2026-01-09T13:45:00Z",
+      "merchant": "Takealot",
+      "category": "Shopping",
+      "amount": 789.99,
+      "description": "Online shopping",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-bag",
+      "categoryColor": "#BB8FCE"
+    },
+    {
+      "id": "txn_026",
+      "date": "2026-01-08T19:30:00Z",
+      "merchant": "Showmax",
+      "category": "Entertainment",
+      "amount": 99,
+      "description": "Streaming service",
+      "paymentMethod": "Debit Order",
+      "icon": "film",
+      "categoryColor": "#4ECDC4"
+    },
+    {
+      "id": "txn_027",
+      "date": "2026-01-07T08:15:00Z",
+      "merchant": "Uber",
+      "category": "Transportation",
+      "amount": 92.3,
+      "description": "Morning commute",
+      "paymentMethod": "Debit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_028",
+      "date": "2026-01-06T14:00:00Z",
+      "merchant": "Woolworths",
+      "category": "Groceries",
+      "amount": 345.7,
+      "description": "Food items",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_029",
+      "date": "2026-01-05T12:30:00Z",
+      "merchant": "McDonald's",
+      "category": "Dining",
+      "amount": 67.9,
+      "description": "Quick meal",
+      "paymentMethod": "Cash",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_030",
+      "date": "2026-01-04T16:45:00Z",
+      "merchant": "Exclusive Books",
+      "category": "Shopping",
+      "amount": 234.5,
+      "description": "Books",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-bag",
+      "categoryColor": "#BB8FCE"
+    },
+    {
+      "id": "txn_031",
+      "date": "2026-01-03T11:00:00Z",
+      "merchant": "Shell",
+      "category": "Transportation",
+      "amount": 795,
+      "description": "Fuel",
+      "paymentMethod": "Credit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_032",
+      "date": "2026-01-02T15:30:00Z",
+      "merchant": "Clicks",
+      "category": "Shopping",
+      "amount": 278.9,
+      "description": "Pharmacy",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-bag",
+      "categoryColor": "#BB8FCE"
+    },
+    {
+      "id": "txn_033",
+      "date": "2026-01-01T10:00:00Z",
+      "merchant": "City of Cape Town",
+      "category": "Utilities",
+      "amount": 1850,
+      "description": "Water & rates",
+      "paymentMethod": "Debit Order",
+      "icon": "zap",
+      "categoryColor": "#85C1E9"
+    },
+    {
+      "id": "txn_034",
+      "date": "2025-12-31T19:00:00Z",
+      "merchant": "Vida e Caffè",
+      "category": "Dining",
+      "amount": 89.5,
+      "description": "Coffee & snack",
+      "paymentMethod": "Credit Card",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_035",
+      "date": "2025-12-30T13:20:00Z",
+      "merchant": "Pick n Pay",
+      "category": "Groceries",
+      "amount": 523.8,
+      "description": "Weekly groceries",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_036",
+      "date": "2025-12-29T17:45:00Z",
+      "merchant": "Nu Metro",
+      "category": "Entertainment",
+      "amount": 340,
+      "description": "Movie night",
+      "paymentMethod": "Credit Card",
+      "icon": "film",
+      "categoryColor": "#4ECDC4"
+    },
+    {
+      "id": "txn_037",
+      "date": "2025-12-28T09:30:00Z",
+      "merchant": "Bolt",
+      "category": "Transportation",
+      "amount": 73.6,
+      "description": "Ride to mall",
+      "paymentMethod": "Debit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_038",
+      "date": "2025-12-27T14:15:00Z",
+      "merchant": "Makro",
+      "category": "Shopping",
+      "amount": 1234.5,
+      "description": "Bulk shopping",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-bag",
+      "categoryColor": "#BB8FCE"
+    },
+    {
+      "id": "txn_039",
+      "date": "2025-12-26T18:00:00Z",
+      "merchant": "Mugg & Bean",
+      "category": "Dining",
+      "amount": 234.7,
+      "description": "Brunch",
+      "paymentMethod": "Credit Card",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_040",
+      "date": "2025-12-25T12:00:00Z",
+      "merchant": "Woolworths",
+      "category": "Groceries",
+      "amount": 789.4,
+      "description": "Christmas groceries",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_041",
+      "date": "2025-12-24T10:30:00Z",
+      "merchant": "BP",
+      "category": "Transportation",
+      "amount": 856,
+      "description": "Fuel",
+      "paymentMethod": "Credit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_042",
+      "date": "2025-12-23T16:20:00Z",
+      "merchant": "Amazon Prime",
+      "category": "Entertainment",
+      "amount": 149,
+      "description": "Subscription",
+      "paymentMethod": "Debit Order",
+      "icon": "film",
+      "categoryColor": "#4ECDC4"
+    },
+    {
+      "id": "txn_043",
+      "date": "2025-12-22T11:45:00Z",
+      "merchant": "Vodacom",
+      "category": "Utilities",
+      "amount": 599,
+      "description": "Mobile contract",
+      "paymentMethod": "Debit Order",
+      "icon": "zap",
+      "categoryColor": "#85C1E9"
+    },
+    {
+      "id": "txn_044",
+      "date": "2025-12-21T15:00:00Z",
+      "merchant": "PEP",
+      "category": "Shopping",
+      "amount": 345.6,
+      "description": "Clothing",
+      "paymentMethod": "Cash",
+      "icon": "shopping-bag",
+      "categoryColor": "#BB8FCE"
+    },
+    {
+      "id": "txn_045",
+      "date": "2025-12-20T19:30:00Z",
+      "merchant": "Panarottis",
+      "category": "Dining",
+      "amount": 398.5,
+      "description": "Pizza night",
+      "paymentMethod": "Credit Card",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_046",
+      "date": "2025-12-19T08:45:00Z",
+      "merchant": "Uber",
+      "category": "Transportation",
+      "amount": 88.4,
+      "description": "Morning ride",
+      "paymentMethod": "Debit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_047",
+      "date": "2025-12-18T13:00:00Z",
+      "merchant": "Checkers",
+      "category": "Groceries",
+      "amount": 467.9,
+      "description": "Weekly groceries",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_048",
+      "date": "2025-12-17T17:15:00Z",
+      "merchant": "Debonairs",
+      "category": "Dining",
+      "amount": 189,
+      "description": "Pizza delivery",
+      "paymentMethod": "Cash",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_049",
+      "date": "2025-12-16T10:20:00Z",
+      "merchant": "Ackermans",
+      "category": "Shopping",
+      "amount": 567.8,
+      "description": "Clothing",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-bag",
+      "categoryColor": "#BB8FCE"
+    },
+    {
+      "id": "txn_050",
+      "date": "2025-12-15T14:30:00Z",
+      "merchant": "Canal Walk",
+      "category": "Entertainment",
+      "amount": 450,
+      "description": "Mall entertainment",
+      "paymentMethod": "Credit Card",
+      "icon": "film",
+      "categoryColor": "#4ECDC4"
+    },
+    {
+      "id": "txn_051",
+      "date": "2025-12-14T09:00:00Z",
+      "merchant": "Shell",
+      "category": "Transportation",
+      "amount": 772.5,
+      "description": "Fuel",
+      "paymentMethod": "Credit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_052",
+      "date": "2025-12-13T16:45:00Z",
+      "merchant": "MTN",
+      "category": "Utilities",
+      "amount": 350,
+      "description": "Airtime & data",
+      "paymentMethod": "Debit Card",
+      "icon": "zap",
+      "categoryColor": "#85C1E9"
+    },
+    {
+      "id": "txn_053",
+      "date": "2025-12-12T12:15:00Z",
+      "merchant": "Pick n Pay",
+      "category": "Groceries",
+      "amount": 612.3,
+      "description": "Weekly groceries",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_054",
+      "date": "2025-12-11T18:30:00Z",
+      "merchant": "Roman's Pizza",
+      "category": "Dining",
+      "amount": 134.9,
+      "description": "Dinner",
+      "paymentMethod": "Cash",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_055",
+      "date": "2025-12-10T11:00:00Z",
+      "merchant": "Sportscene",
+      "category": "Shopping",
+      "amount": 899,
+      "description": "Sneakers",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-bag",
+      "categoryColor": "#BB8FCE"
+    },
+    {
+      "id": "txn_056",
+      "date": "2025-12-09T15:20:00Z",
+      "merchant": "Bolt",
+      "category": "Transportation",
+      "amount": 64.8,
+      "description": "Ride",
+      "paymentMethod": "Debit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_057",
+      "date": "2025-12-08T13:45:00Z",
+      "merchant": "Apple Music",
+      "category": "Entertainment",
+      "amount": 79.99,
+      "description": "Subscription",
+      "paymentMethod": "Debit Order",
+      "icon": "film",
+      "categoryColor": "#4ECDC4"
+    },
+    {
+      "id": "txn_058",
+      "date": "2025-12-07T10:30:00Z",
+      "merchant": "Woolworths",
+      "category": "Groceries",
+      "amount": 445.6,
+      "description": "Fresh food",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_059",
+      "date": "2025-12-06T19:00:00Z",
+      "merchant": "Steers",
+      "category": "Dining",
+      "amount": 112.5,
+      "description": "Lunch",
+      "paymentMethod": "Cash",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_060",
+      "date": "2025-12-05T08:15:00Z",
+      "merchant": "Engen",
+      "category": "Transportation",
+      "amount": 834,
+      "description": "Fuel",
+      "paymentMethod": "Credit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_061",
+      "date": "2025-12-04T14:40:00Z",
+      "merchant": "Eskom",
+      "category": "Utilities",
+      "amount": 1450,
+      "description": "Electricity",
+      "paymentMethod": "Debit Order",
+      "icon": "zap",
+      "categoryColor": "#85C1E9"
+    },
+    {
+      "id": "txn_062",
+      "date": "2025-12-03T16:00:00Z",
+      "merchant": "Dischem",
+      "category": "Shopping",
+      "amount": 389.7,
+      "description": "Health products",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-bag",
+      "categoryColor": "#BB8FCE"
+    },
+    {
+      "id": "txn_063",
+      "date": "2025-12-02T12:30:00Z",
+      "merchant": "Checkers",
+      "category": "Groceries",
+      "amount": 534.2,
+      "description": "Weekly groceries",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_064",
+      "date": "2025-12-01T18:45:00Z",
+      "merchant": "Ocean Basket",
+      "category": "Dining",
+      "amount": 567,
+      "description": "Seafood dinner",
+      "paymentMethod": "Credit Card",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_065",
+      "date": "2025-11-30T09:20:00Z",
+      "merchant": "Uber",
+      "category": "Transportation",
+      "amount": 91.7,
+      "description": "Ride",
+      "paymentMethod": "Debit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_066",
+      "date": "2025-11-29T15:30:00Z",
+      "merchant": "Netflix",
+      "category": "Entertainment",
+      "amount": 199,
+      "description": "Subscription",
+      "paymentMethod": "Debit Order",
+      "icon": "film",
+      "categoryColor": "#4ECDC4"
+    },
+    {
+      "id": "txn_067",
+      "date": "2025-11-28T11:45:00Z",
+      "merchant": "Pick n Pay",
+      "category": "Groceries",
+      "amount": 678.9,
+      "description": "Weekly groceries",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_068",
+      "date": "2025-11-27T17:00:00Z",
+      "merchant": "Spur",
+      "category": "Dining",
+      "amount": 287.5,
+      "description": "Family meal",
+      "paymentMethod": "Credit Card",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_069",
+      "date": "2025-11-26T13:15:00Z",
+      "merchant": "Vodacom",
+      "category": "Utilities",
+      "amount": 599,
+      "description": "Mobile contract",
+      "paymentMethod": "Debit Order",
+      "icon": "zap",
+      "categoryColor": "#85C1E9"
+    },
+    {
+      "id": "txn_070",
+      "date": "2025-11-25T10:00:00Z",
+      "merchant": "Shell",
+      "category": "Transportation",
+      "amount": 798.5,
+      "description": "Fuel",
+      "paymentMethod": "Credit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_071",
+      "date": "2025-11-24T14:30:00Z",
+      "merchant": "Edgars",
+      "category": "Shopping",
+      "amount": 1245,
+      "description": "Clothing",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-bag",
+      "categoryColor": "#BB8FCE"
+    },
+    {
+      "id": "txn_072",
+      "date": "2025-11-23T19:15:00Z",
+      "merchant": "Nando's",
+      "category": "Dining",
+      "amount": 198.9,
+      "description": "Takeaway",
+      "paymentMethod": "Cash",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_073",
+      "date": "2025-11-22T08:45:00Z",
+      "merchant": "Bolt",
+      "category": "Transportation",
+      "amount": 76.3,
+      "description": "Morning ride",
+      "paymentMethod": "Debit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_074",
+      "date": "2025-11-21T12:00:00Z",
+      "merchant": "Woolworths",
+      "category": "Groceries",
+      "amount": 389.4,
+      "description": "Food shopping",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_075",
+      "date": "2025-11-20T16:20:00Z",
+      "merchant": "Showmax",
+      "category": "Entertainment",
+      "amount": 99,
+      "description": "Streaming",
+      "paymentMethod": "Debit Order",
+      "icon": "film",
+      "categoryColor": "#4ECDC4"
+    },
+    {
+      "id": "txn_076",
+      "date": "2025-11-19T11:30:00Z",
+      "merchant": "MTN",
+      "category": "Utilities",
+      "amount": 299,
+      "description": "Data bundle",
+      "paymentMethod": "Debit Card",
+      "icon": "zap",
+      "categoryColor": "#85C1E9"
+    },
+    {
+      "id": "txn_077",
+      "date": "2025-11-18T15:45:00Z",
+      "merchant": "Takealot",
+      "category": "Shopping",
+      "amount": 567.8,
+      "description": "Online order",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-bag",
+      "categoryColor": "#BB8FCE"
+    },
+    {
+      "id": "txn_078",
+      "date": "2025-11-17T18:00:00Z",
+      "merchant": "KFC",
+      "category": "Dining",
+      "amount": 124.5,
+      "description": "Quick meal",
+      "paymentMethod": "Cash",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_079",
+      "date": "2025-11-16T09:15:00Z",
+      "merchant": "BP",
+      "category": "Transportation",
+      "amount": 812,
+      "description": "Fuel",
+      "paymentMethod": "Credit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_080",
+      "date": "2025-11-15T13:30:00Z",
+      "merchant": "Checkers",
+      "category": "Groceries",
+      "amount": 598.7,
+      "description": "Weekly groceries",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_081",
+      "date": "2025-11-14T17:45:00Z",
+      "merchant": "McDonald's",
+      "category": "Dining",
+      "amount": 89.9,
+      "description": "Lunch",
+      "paymentMethod": "Cash",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_082",
+      "date": "2025-11-13T10:30:00Z",
+      "merchant": "Uber",
+      "category": "Transportation",
+      "amount": 83.6,
+      "description": "Ride",
+      "paymentMethod": "Debit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_083",
+      "date": "2025-11-12T14:00:00Z",
+      "merchant": "Game",
+      "category": "Shopping",
+      "amount": 1678,
+      "description": "Appliance",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-bag",
+      "categoryColor": "#BB8FCE"
+    },
+    {
+      "id": "txn_084",
+      "date": "2025-11-11T19:20:00Z",
+      "merchant": "Mugg & Bean",
+      "category": "Dining",
+      "amount": 245.8,
+      "description": "Dinner",
+      "paymentMethod": "Credit Card",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_085",
+      "date": "2025-11-10T08:50:00Z",
+      "merchant": "Eskom",
+      "category": "Utilities",
+      "amount": 1350,
+      "description": "Electricity",
+      "paymentMethod": "Debit Order",
+      "icon": "zap",
+      "categoryColor": "#85C1E9"
+    },
+    {
+      "id": "txn_086",
+      "date": "2025-11-09T12:45:00Z",
+      "merchant": "Pick n Pay",
+      "category": "Groceries",
+      "amount": 487.3,
+      "description": "Groceries",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_087",
+      "date": "2025-11-08T16:15:00Z",
+      "merchant": "Spotify",
+      "category": "Entertainment",
+      "amount": 119.99,
+      "description": "Premium",
+      "paymentMethod": "Debit Order",
+      "icon": "film",
+      "categoryColor": "#4ECDC4"
+    },
+    {
+      "id": "txn_088",
+      "date": "2025-11-07T11:00:00Z",
+      "merchant": "Shell",
+      "category": "Transportation",
+      "amount": 765.5,
+      "description": "Fuel",
+      "paymentMethod": "Credit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_089",
+      "date": "2025-11-06T15:30:00Z",
+      "merchant": "Mr Price",
+      "category": "Shopping",
+      "amount": 678.9,
+      "description": "Clothing",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-bag",
+      "categoryColor": "#BB8FCE"
+    },
+    {
+      "id": "txn_090",
+      "date": "2025-11-05T18:45:00Z",
+      "merchant": "Panarottis",
+      "category": "Dining",
+      "amount": 456.7,
+      "description": "Dinner",
+      "paymentMethod": "Credit Card",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_091",
+      "date": "2025-11-04T09:30:00Z",
+      "merchant": "Vodacom",
+      "category": "Utilities",
+      "amount": 599,
+      "description": "Mobile contract",
+      "paymentMethod": "Debit Order",
+      "icon": "zap",
+      "categoryColor": "#85C1E9"
+    },
+    {
+      "id": "txn_092",
+      "date": "2025-11-03T13:15:00Z",
+      "merchant": "Woolworths",
+      "category": "Groceries",
+      "amount": 512.4,
+      "description": "Food",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_093",
+      "date": "2025-11-02T17:00:00Z",
+      "merchant": "Uber Eats",
+      "category": "Dining",
+      "amount": 167.9,
+      "description": "Delivery",
+      "paymentMethod": "Debit Card",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_094",
+      "date": "2025-11-01T10:45:00Z",
+      "merchant": "Bolt",
+      "category": "Transportation",
+      "amount": 69.8,
+      "description": "Ride",
+      "paymentMethod": "Debit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_095",
+      "date": "2025-10-31T14:30:00Z",
+      "merchant": "Netflix",
+      "category": "Entertainment",
+      "amount": 199,
+      "description": "Subscription",
+      "paymentMethod": "Debit Order",
+      "icon": "film",
+      "categoryColor": "#4ECDC4"
+    },
+    {
+      "id": "txn_096",
+      "date": "2025-10-30T12:00:00Z",
+      "merchant": "Checkers",
+      "category": "Groceries",
+      "amount": 623.5,
+      "description": "Weekly shopping",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_097",
+      "date": "2025-10-29T19:15:00Z",
+      "merchant": "Ocean Basket",
+      "category": "Dining",
+      "amount": 498,
+      "description": "Dinner",
+      "paymentMethod": "Credit Card",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_098",
+      "date": "2025-10-28T08:30:00Z",
+      "merchant": "Engen",
+      "category": "Transportation",
+      "amount": 827,
+      "description": "Fuel",
+      "paymentMethod": "Credit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_099",
+      "date": "2025-10-27T16:45:00Z",
+      "merchant": "Dischem",
+      "category": "Shopping",
+      "amount": 412.8,
+      "description": "Health & beauty",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-bag",
+      "categoryColor": "#BB8FCE"
+    },
+    {
+      "id": "txn_100",
+      "date": "2025-10-26T11:20:00Z",
+      "merchant": "MTN",
+      "category": "Utilities",
+      "amount": 350,
+      "description": "Airtime",
+      "paymentMethod": "Debit Card",
+      "icon": "zap",
+      "categoryColor": "#85C1E9"
+    },
+    {
+      "id": "txn_101",
+      "date": "2025-10-25T15:00:00Z",
+      "merchant": "Pick n Pay",
+      "category": "Groceries",
+      "amount": 545.7,
+      "description": "Groceries",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_102",
+      "date": "2025-10-24T18:30:00Z",
+      "merchant": "Steers",
+      "category": "Dining",
+      "amount": 145.6,
+      "description": "Quick meal",
+      "paymentMethod": "Cash",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_103",
+      "date": "2025-10-23T09:45:00Z",
+      "merchant": "Uber",
+      "category": "Transportation",
+      "amount": 94.5,
+      "description": "Commute",
+      "paymentMethod": "Debit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_104",
+      "date": "2025-10-22T13:30:00Z",
+      "merchant": "Takealot",
+      "category": "Shopping",
+      "amount": 923.4,
+      "description": "Electronics",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-bag",
+      "categoryColor": "#BB8FCE"
+    },
+    {
+      "id": "txn_105",
+      "date": "2025-10-21T17:15:00Z",
+      "merchant": "Showmax",
+      "category": "Entertainment",
+      "amount": 99,
+      "description": "Streaming",
+      "paymentMethod": "Debit Order",
+      "icon": "film",
+      "categoryColor": "#4ECDC4"
+    },
+    {
+      "id": "txn_106",
+      "date": "2025-10-20T10:00:00Z",
+      "merchant": "Eskom",
+      "category": "Utilities",
+      "amount": 1550,
+      "description": "Electricity",
+      "paymentMethod": "Debit Order",
+      "icon": "zap",
+      "categoryColor": "#85C1E9"
+    },
+    {
+      "id": "txn_107",
+      "date": "2025-10-19T14:45:00Z",
+      "merchant": "Woolworths",
+      "category": "Groceries",
+      "amount": 478.9,
+      "description": "Fresh food",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_108",
+      "date": "2025-10-18T19:00:00Z",
+      "merchant": "KFC",
+      "category": "Dining",
+      "amount": 156.8,
+      "description": "Dinner",
+      "paymentMethod": "Cash",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_109",
+      "date": "2025-10-17T08:15:00Z",
+      "merchant": "Shell",
+      "category": "Transportation",
+      "amount": 789.5,
+      "description": "Fuel",
+      "paymentMethod": "Credit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_110",
+      "date": "2025-10-16T12:30:00Z",
+      "merchant": "Edgars",
+      "category": "Shopping",
+      "amount": 1134,
+      "description": "Clothing",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-bag",
+      "categoryColor": "#BB8FCE"
+    },
+    {
+      "id": "txn_111",
+      "date": "2025-10-15T16:00:00Z",
+      "merchant": "Vodacom",
+      "category": "Utilities",
+      "amount": 599,
+      "description": "Mobile contract",
+      "paymentMethod": "Debit Order",
+      "icon": "zap",
+      "categoryColor": "#85C1E9"
+    },
+    {
+      "id": "txn_112",
+      "date": "2025-10-14T11:15:00Z",
+      "merchant": "Checkers",
+      "category": "Groceries",
+      "amount": 589.4,
+      "description": "Weekly shop",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_113",
+      "date": "2025-10-13T18:45:00Z",
+      "merchant": "Nando's",
+      "category": "Dining",
+      "amount": 223.7,
+      "description": "Takeaway",
+      "paymentMethod": "Credit Card",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_114",
+      "date": "2025-10-12T09:30:00Z",
+      "merchant": "Bolt",
+      "category": "Transportation",
+      "amount": 72.4,
+      "description": "Ride",
+      "paymentMethod": "Debit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_115",
+      "date": "2025-10-11T15:20:00Z",
+      "merchant": "Netflix",
+      "category": "Entertainment",
+      "amount": 199,
+      "description": "Subscription",
+      "paymentMethod": "Debit Order",
+      "icon": "film",
+      "categoryColor": "#4ECDC4"
+    },
+    {
+      "id": "txn_116",
+      "date": "2025-10-10T13:00:00Z",
+      "merchant": "Pick n Pay",
+      "category": "Groceries",
+      "amount": 612.8,
+      "description": "Groceries",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-cart",
+      "categoryColor": "#FF6B6B"
+    },
+    {
+      "id": "txn_117",
+      "date": "2025-10-09T17:30:00Z",
+      "merchant": "Spur",
+      "category": "Dining",
+      "amount": 378.9,
+      "description": "Family dinner",
+      "paymentMethod": "Credit Card",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    },
+    {
+      "id": "txn_118",
+      "date": "2025-10-08T10:45:00Z",
+      "merchant": "BP",
+      "category": "Transportation",
+      "amount": 803,
+      "description": "Fuel",
+      "paymentMethod": "Credit Card",
+      "icon": "car",
+      "categoryColor": "#45B7D1"
+    },
+    {
+      "id": "txn_119",
+      "date": "2025-10-07T14:15:00Z",
+      "merchant": "Game",
+      "category": "Shopping",
+      "amount": 1567.5,
+      "description": "Home goods",
+      "paymentMethod": "Credit Card",
+      "icon": "shopping-bag",
+      "categoryColor": "#BB8FCE"
+    },
+    {
+      "id": "txn_120",
+      "date": "2025-10-06T19:00:00Z",
+      "merchant": "McDonald's",
+      "category": "Dining",
+      "amount": 98.4,
+      "description": "Fast food",
+      "paymentMethod": "Cash",
+      "icon": "utensils",
+      "categoryColor": "#F7DC6F"
+    }
+  ],
+  "trends": [
+    {
+      "month": "2024-02",
+      "totalSpent": 9148.57,
+      "transactionCount": 35,
+      "averageTransaction": 261.39
+    },
+    {
+      "month": "2024-03",
+      "totalSpent": 5215.03,
+      "transactionCount": 18,
+      "averageTransaction": 289.72
+    },
+    {
+      "month": "2024-04",
+      "totalSpent": 8986.76,
+      "transactionCount": 36,
+      "averageTransaction": 249.63
+    },
+    {
+      "month": "2024-05",
+      "totalSpent": 8573.81,
+      "transactionCount": 34,
+      "averageTransaction": 252.17
+    },
+    {
+      "month": "2024-06",
+      "totalSpent": 6758.87,
+      "transactionCount": 28,
+      "averageTransaction": 241.39
+    },
+    {
+      "month": "2024-07",
+      "totalSpent": 7616.52,
+      "transactionCount": 31,
+      "averageTransaction": 245.69
+    },
+    {
+      "month": "2024-08",
+      "totalSpent": 7818.16,
+      "transactionCount": 31,
+      "averageTransaction": 252.2
+    },
+    {
+      "month": "2024-09",
+      "totalSpent": 7692.11,
+      "transactionCount": 28,
+      "averageTransaction": 274.72
+    },
+    {
+      "month": "2024-10",
+      "totalSpent": 8995.23,
+      "transactionCount": 34,
+      "averageTransaction": 264.57
+    },
+    {
+      "month": "2024-11",
+      "totalSpent": 8400.13,
+      "transactionCount": 29,
+      "averageTransaction": 289.66
+    },
+    {
+      "month": "2024-12",
+      "totalSpent": 5632.23,
+      "transactionCount": 23,
+      "averageTransaction": 244.88
+    },
+    {
+      "month": "2025-01",
+      "totalSpent": 8216.28,
+      "transactionCount": 31,
+      "averageTransaction": 265.04
+    },
+    {
+      "month": "2025-02",
+      "totalSpent": 8508.6,
+      "transactionCount": 32,
+      "averageTransaction": 265.89
+    },
+    {
+      "month": "2025-03",
+      "totalSpent": 7955.43,
+      "transactionCount": 34,
+      "averageTransaction": 233.98
+    },
+    {
+      "month": "2025-04",
+      "totalSpent": 7561.25,
+      "transactionCount": 33,
+      "averageTransaction": 229.13
+    },
+    {
+      "month": "2025-05",
+      "totalSpent": 7491.54,
+      "transactionCount": 28,
+      "averageTransaction": 267.55
+    },
+    {
+      "month": "2025-06",
+      "totalSpent": 10987.33,
+      "transactionCount": 39,
+      "averageTransaction": 281.73
+    },
+    {
+      "month": "2025-07",
+      "totalSpent": 5675.48,
+      "transactionCount": 23,
+      "averageTransaction": 246.76
+    },
+    {
+      "month": "2025-08",
+      "totalSpent": 6765.14,
+      "transactionCount": 24,
+      "averageTransaction": 281.88
+    },
+    {
+      "month": "2025-09",
+      "totalSpent": 6347.72,
+      "transactionCount": 27,
+      "averageTransaction": 235.1
+    },
+    {
+      "month": "2025-10",
+      "totalSpent": 8222.3,
+      "transactionCount": 31,
+      "averageTransaction": 265.24
+    },
+    {
+      "month": "2025-11",
+      "totalSpent": 7780.4,
+      "transactionCount": 29,
+      "averageTransaction": 268.29
+    },
+    {
+      "month": "2025-12",
+      "totalSpent": 7714.46,
+      "transactionCount": 28,
+      "averageTransaction": 275.52
+    },
+    {
+      "month": "2026-01",
+      "totalSpent": 7532.29,
+      "transactionCount": 28,
+      "averageTransaction": 269.01
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal_001",
+      "category": "Entertainment",
+      "monthlyBudget": 1000,
+      "currentSpent": 650.3,
+      "percentageUsed": 65.03,
+      "daysRemaining": 12,
+      "status": "on_track"
+    },
+    {
+      "id": "goal_002",
+      "category": "Groceries",
+      "monthlyBudget": 1500,
+      "currentSpent": 1450.8,
+      "percentageUsed": 96.72,
+      "daysRemaining": 12,
+      "status": "warning"
+    }
+  ],
+  "filters": {
+    "categories": [
+      {
+        "name": "Groceries",
+        "color": "#FF6B6B",
+        "icon": "shopping-cart"
+      },
+      {
+        "name": "Entertainment",
+        "color": "#4ECDC4",
+        "icon": "film"
+      },
+      {
+        "name": "Transportation",
+        "color": "#45B7D1",
+        "icon": "car"
+      },
+      {
+        "name": "Dining",
+        "color": "#F7DC6F",
+        "icon": "utensils"
+      },
+      {
+        "name": "Shopping",
+        "color": "#BB8FCE",
+        "icon": "shopping-bag"
+      },
+      {
+        "name": "Utilities",
+        "color": "#85C1E9",
+        "icon": "zap"
+      }
+    ],
+    "dateRangePresets": [
+      {
+        "label": "Last 7 days",
+        "value": "7d"
+      },
+      {
+        "label": "Last 30 days",
+        "value": "30d"
+      },
+      {
+        "label": "Last 90 days",
+        "value": "90d"
+      },
+      {
+        "label": "Last year",
+        "value": "1y"
+      }
+    ]
+  }
+}

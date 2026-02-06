@@ -1,0 +1,196 @@
+/* Goals Section Styles */
+.container {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-2xl);
+}
+
+.title {
+  font-size: var(--font-xl);
+  font-weight: var(--font-bold);
+  margin-bottom: var(--spacing-xl);
+}
+
+.goalsList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+}
+
+.goalItem {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.goalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.goalTitle {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  font-weight: var(--font-bold);
+}
+
+.goalAmounts {
+  text-align: right;
+}
+
+.goalSpent {
+  font-weight: var(--font-bold);
+  font-size: var(--font-sm);
+}
+
+.goalDays {
+  font-size: var(--font-xs);
+  color: var(--text-muted);
+  font-weight: var(--font-semibold);
+}
+
+.progressBar {
+  width: 100%;
+  height: 0.5rem;
+  background-color: var(--bg-tertiary);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background-color: var(--success);
+  transition: width var(--transition-slow) ease;
+}
+
+.progressFill.warning {
+  background-color: var(--warning);
+}
+
+.goalFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.goalRemaining {
+  font-size: var(--font-sm);
+  font-weight: var(--font-bold);
+}
+
+.goalRemaining.positive {
+  color: var(--success);
+}
+
+.goalRemaining.negative {
+  color: var(--danger);
+}
+
+.goalStatus {
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: var(--radius-full);
+  font-size: var(--font-xs);
+  font-weight: var(--font-bold);
+}
+
+.goalStatus.onTrack {
+  background-color: color-mix(in srgb, var(--success) 20%, transparent);
+  color: var(--success);
+}
+
+.goalStatus.warning {
+  background-color: color-mix(in srgb, var(--warning) 20%, transparent);
+  color: var(--warning);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .container {
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  .goalsList {
+    gap: var(--spacing-lg);
+  }
+
+  .goalItem {
+    padding: var(--spacing-lg);
+  }
+
+  .goalHeader {
+    flex-direction: column;
+    gap: var(--spacing-md);
+    align-items: flex-start;
+  }
+
+  .goalTitle {
+    font-size: var(--font-md);
+  }
+
+  .goalAmounts {
+    text-align: left;
+    width: 100%;
+  }
+
+  .goalSpent {
+    font-size: var(--font-sm);
+  }
+
+  .goalDays {
+    font-size: var(--font-xs);
+  }
+
+  .progressBar {
+    height: 0.625rem;
+  }
+
+  .goalFooter {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-sm);
+  }
+
+  .goalRemaining {
+    font-size: var(--font-sm);
+  }
+
+  .goalStatus {
+    font-size: var(--font-xs);
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: var(--spacing-lg);
+  }
+
+  .title {
+    font-size: var(--font-lg);
+    margin-bottom: var(--spacing-lg);
+  }
+
+  .goalsList {
+    gap: var(--spacing-md);
+  }
+
+  .goalItem {
+    padding: var(--spacing-md);
+    gap: var(--spacing-sm);
+  }
+
+  .goalTitle {
+    font-size: var(--font-sm);
+  }
+
+  .goalSpent {
+    font-size: var(--font-xs);
+  }
+
+  .goalRemaining {
+    font-size: var(--font-xs);
+  }
+}

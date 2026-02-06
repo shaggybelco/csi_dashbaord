@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.title {
+  margin: 0;
+}
+
+.select {
+  width: auto;
+}
+
+.chartWrapper {
+  height: 280px;
+}
+
+.chartContainer {
+  height: 280px;
+}
+
+.legendSwatch {
+  background-color: var(--primary);
+}
+
+@media (max-width: 480px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .select {
+    width: 100%;
+  }
+
+  .chartWrapper,
+  .chartContainer {
+    height: 260px;
+  }
+}

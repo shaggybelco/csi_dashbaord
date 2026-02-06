@@ -1,0 +1,177 @@
+/* Category Card Styles */
+.card {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: all var(--transition-base);
+}
+
+.card:hover {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 1px var(--primary);
+}
+
+.cardHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-lg);
+  text-align: left;
+  color: var(--text-primary);
+}
+
+.cardInfo {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+  flex: 1;
+}
+
+.iconWrapper {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-lg);
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.categoryName {
+  font-size: var(--font-md);
+  font-weight: var(--font-bold);
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.transactionCount {
+  font-size: var(--font-xs);
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.cardAmount {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--spacing-xs);
+  flex-shrink: 0;
+}
+
+.amount {
+  font-size: var(--font-lg);
+  font-weight: var(--font-bold);
+  color: var(--text-primary);
+}
+
+.percentage {
+  font-size: var(--font-xs);
+  font-weight: var(--font-semibold);
+  color: var(--text-muted);
+  padding: calc(var(--spacing-xs) * 0.7) var(--spacing-sm);
+  background-color: var(--bg-tertiary);
+  border-radius: var(--radius-sm);
+}
+
+/* Responsive Design */
+
+/* Large tablets and small desktops (992px - 1200px) */
+@media (max-width: 1200px) {
+  .cardHeader {
+    padding: calc(var(--spacing-lg) * 0.9);
+  }
+
+  .iconWrapper {
+    width: 44px;
+    height: 44px;
+  }
+
+  .categoryName {
+    font-size: calc(var(--font-md) * 0.95);
+  }
+}
+
+/* Tablets (768px - 992px) */
+@media (max-width: 992px) {
+  .cardHeader {
+    padding: var(--spacing-md);
+  }
+
+  .iconWrapper {
+    width: 42px;
+    height: 42px;
+  }
+
+}
+
+/* Small tablets and large phones (576px - 768px) */
+@media (max-width: 768px) {
+  .iconWrapper {
+    width: 40px;
+    height: 40px;
+  }
+
+  .categoryName {
+    font-size: var(--font-sm);
+  }
+
+  .amount {
+    font-size: var(--font-md);
+  }
+
+}
+
+/* Phones (480px - 576px) */
+@media (max-width: 576px) {
+  .cardInfo {
+    gap: var(--spacing-md);
+  }
+
+  .categoryName {
+    font-size: calc(var(--font-sm) * 0.95);
+  }
+
+  .amount {
+    font-size: calc(var(--font-md) * 0.95);
+  }
+}
+
+/* Small phones (below 480px) */
+@media (max-width: 480px) {
+  .cardHeader {
+    padding: var(--spacing-sm);
+  }
+
+  .cardInfo {
+    gap: var(--spacing-sm);
+  }
+
+  .iconWrapper {
+    width: 36px;
+    height: 36px;
+  }
+
+  .categoryName {
+    font-size: var(--font-xs);
+  }
+
+  .amount {
+    font-size: var(--font-sm);
+  }
+
+  .percentage {
+    padding: calc(var(--spacing-xs) * 0.6) var(--spacing-xs);
+  }
+
+  .transactionCount {
+    font-size: calc(var(--font-xs) * 0.9);
+  }
+
+}

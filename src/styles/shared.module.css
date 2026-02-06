@@ -1,0 +1,182 @@
+/* Shared Utility Classes */
+
+/* Container */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-2xl);
+}
+
+/* Card Styles */
+.card {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-xl);
+}
+
+.cardPadded {
+  padding: var(--spacing-2xl);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.cardTitle {
+  font-size: var(--font-sm);
+  font-weight: var(--font-semibold);
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.cardIcon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: var(--radius-md);
+  background-color: color-mix(in srgb, var(--primary) 20%, transparent);
+  color: var(--primary);
+  display: grid;
+  place-items: center;
+}
+
+.cardValue {
+  font-size: var(--font-3xl);
+  font-weight: var(--font-bold);
+  margin-bottom: var(--spacing-sm);
+}
+
+.cardChange {
+  font-size: var(--font-sm);
+  font-weight: var(--font-semibold);
+}
+
+.cardChange.positive {
+  color: var(--success);
+}
+
+.cardChange.negative {
+  color: var(--danger);
+}
+
+/* Section Title */
+.sectionTitle {
+  font-size: var(--font-xl);
+  font-weight: var(--font-bold);
+  margin-bottom: var(--spacing-xl);
+}
+
+/* Button Styles */
+.btn {
+  padding: var(--spacing-sm) var(--spacing-lg);
+  background-color: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-weight: var(--font-semibold);
+  cursor: pointer;
+  transition: all var(--transition-base);
+}
+
+.btn:hover:not(:disabled) {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btnIcon {
+  padding: var(--spacing-sm);
+  display: grid;
+  place-items: center;
+}
+
+.btnPrimary {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+}
+
+.btnPrimary:hover:not(:disabled) {
+  background-color: color-mix(in srgb, var(--primary) 85%, black);
+}
+
+.btnPrimary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btnSecondary {
+  background-color: var(--bg-tertiary);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+}
+
+.btnSecondary:hover:not(:disabled) {
+  background-color: var(--bg-primary);
+}
+
+.btnSmall {
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-sm);
+  white-space: nowrap;
+}
+
+/* Select/Dropdown Styles */
+.select {
+  padding: var(--spacing-sm) var(--spacing-lg);
+  background-color: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-size: var(--font-sm);
+  font-weight: var(--font-semibold);
+  cursor: pointer;
+  max-width: 100%;
+}
+
+.select:focus {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* Responsive Container */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 var(--spacing-lg);
+  }
+
+  .cardValue {
+    font-size: var(--font-2xl);
+  }
+
+  .cardTitle {
+    font-size: var(--font-xs);
+  }
+
+  .sectionTitle {
+    font-size: var(--font-lg);
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 var(--spacing-md);
+  }
+
+  .card {
+    padding: var(--spacing-lg);
+  }
+
+  .cardPadded {
+    padding: 1.25rem;
+  }
+}
